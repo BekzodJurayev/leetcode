@@ -2,6 +2,7 @@ package util;
 
 import models.ListNode;
 
+@SuppressWarnings("unused")
 public class Utils {
     public static ListNode generateListNode(int[] nums) {
         if (nums == null || nums.length < 1)
@@ -20,4 +21,13 @@ public class Utils {
         }
         return h;
     }
+
+    public static void printMatrix(int[][] matrix) {
+        for (int[] rows : matrix) {
+            System.out.println();
+            for (int cell : rows)
+                System.out.printf("%d\t", cell);
+        }
+    }
+
 }

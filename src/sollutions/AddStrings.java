@@ -1,5 +1,6 @@
 package sollutions;
 
+@SuppressWarnings("unused")
 public class AddStrings {
     public String addStrings(String num1, String num2) {
         int l1 = num1.length(), l2 = num2.length(), l = (Math.max(l1, l2)) + 1;

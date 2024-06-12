@@ -2,6 +2,7 @@ package sollutions;
 
 import models.ListNode;
 
+@SuppressWarnings("unused")
 public class PalindromeLinkedList {
 
     public boolean isPalindrome(ListNode head) {
